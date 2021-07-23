@@ -34,7 +34,7 @@ const filter = () => {
             items.forEach(btn => {
                 btn.classList.remove('active');
             });
-            console.log(target.classList[0]);
+            
             typeFilter(`${target.classList[0]}`);
             target.classList.add('active');
         }
